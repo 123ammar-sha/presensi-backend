@@ -1,0 +1,107 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since they are
+#   intended to be used in development from authority sources
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to ignore Pipfile.lock, but
+#   in some cases you can include it.
+Pipfile.lock
+
+# Poetry
+#   Similar to Pipfile.lock, it's generally recommended to keep it in version control
+#   pdm -> https://pdm.fming.dev
+.pdm.toml
+
+# Virtual Environments (Sangat Penting!)
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs and Editors (VS Code / PyCharm)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment Variables / Secrets (PALING KRUSIAL!)
+.env
